@@ -12,6 +12,7 @@ import '../styles/index.css'
 import NavBar from './components/NavBar';
 import Jumbotron from './components/Jumbotron';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -45,5 +46,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           link="https://pansgranier.com/" />
       </div>
     </div>
+    <Footer />
   </React.StrictMode>,
 )
