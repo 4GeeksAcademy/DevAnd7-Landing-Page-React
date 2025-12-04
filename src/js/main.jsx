@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <NavBar />
     <div className='container'>
       <Jumbotron />
-      <div className="container d-flex justify-content-between">
+      <div className="container d-flex flex-wrap gap-4">
         <Card
           title="Chocolatería San Ginés"
           text="Un clásico de Madrid: abierta desde 1894, es famosa por su chocolate con churros."
